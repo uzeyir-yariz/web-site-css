@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+/*header bölümü*/
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding: 1rem 5rem 0rem 5rem;
+}
+
+nav > img{ 
+    height: auto;
+    width: 75px;
+}
+
+nav > .menu{
+    display: flex;
+    list-style: none;
+}
+
+nav > .menu > li{
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+nav > .menu > li > a,
+.sing{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.2s ease-in;
+}
+
+nav > .menu > li > a:hover{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 5px 0px 5px 0px;
+}
+
+.sing:hover{
+    opacity: 75%;
+}
+
+
+
+.sing{
+    font-size: 24px;
+    background-color: black;
+    color: azure;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 25px;
+    text-align: center;
+}
+
